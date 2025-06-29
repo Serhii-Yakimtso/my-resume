@@ -195,12 +195,9 @@ const softSkillsMarkup = info.softSkills.map(
   (skill) => `<li class="soft-item">${skill}</li>`
 );
 
-const languagesMarkup = `
-            ${info.languages.map(
-              (lang) =>
-                `<li class="languages-item">${lang.lang} — ${lang.level}</li>`
-            )}
-`;
+const languagesMarkup = info.languages.map(
+  (lang) => `<li class="languages-item">${lang.lang} — ${lang.level}</li>`
+);
 
 header.innerHTML = headerMarkup;
 
@@ -216,6 +213,6 @@ education.innerHTML = educationMarkUp;
 
 // techSkills
 
-softSkills.innerHTML = softSkillsMarkup;
+softSkills.innerHTML = softSkillsMarkup.join("");
 
-languages.innerHTML = languagesMarkup;
+languages.innerHTML = languagesMarkup.join("");
