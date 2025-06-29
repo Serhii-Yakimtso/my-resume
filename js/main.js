@@ -78,9 +78,23 @@ const info = {
 
   techSkills: {},
 
-  softSkills: {},
+  softSkills: [
+    "Аналітичне мислення",
+    "Командна робота",
+    "Комунікабельність",
+    "Уважність до деталей",
+  ],
 
-  languages: {},
+  languages: [
+    {
+      lang: "Українська",
+      level: "рідна",
+    },
+    {
+      lang: "Англійська",
+      level: "A2/B1",
+    },
+  ],
 };
 
 const header = document.querySelector("#header");
@@ -139,6 +153,10 @@ const summaryMarkup = `
 
 `;
 
+// experienceMarkup
+
+// achivmentsMarkup
+
 const educationMarkUp = `
 
           <div class="container">
@@ -169,20 +187,35 @@ const educationMarkUp = `
 
 `;
 
+// contactsMarkup
+
+// techSkillsMarkup
+
+const softSkillsMarkup = info.softSkills.map(
+  (skill) => `<li class="soft-item">${skill}</li>`
+);
+
+const languagesMarkup = `
+            ${info.languages.map(
+              (lang) =>
+                `<li class="languages-item">${lang.lang} — ${lang.level}</li>`
+            )}
+`;
+
 header.innerHTML = headerMarkup;
 
 summary.innerHTML = summaryMarkup;
 
 // experience
 
-education.innerHTML = educationMarkUp;
-
 // achivments
+
+education.innerHTML = educationMarkUp;
 
 // contacts
 
 // techSkills
 
-// softSkills
+softSkills.innerHTML = softSkillsMarkup;
 
-// languages
+languages.innerHTML = languagesMarkup;

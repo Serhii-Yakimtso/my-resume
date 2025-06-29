@@ -53,17 +53,20 @@ a {
 
 .wrapper {
   display: grid;
-  grid-template-columns: auto 228px;
+  grid-template-columns: 228px auto;
+  grid-template-areas: "sidebar main";
 }
 
-.right:not(:first-child) {
+.main-info {
+  grid-area: main;
+}
+
+.sidebar {
+  grid-area: sidebar;
+
   height: 100vh;
 
   background-color: var(--secondary-bcg-color);
-  color: var(--secondary-font-color);
-}
-
-.right:not(:first-child) .title {
   color: var(--secondary-font-color);
 }
 
@@ -73,9 +76,31 @@ a {
   color: var(--prime-title-color);
 }
 
+.sidebar .title {
+  color: var(--secondary-font-color);
+}
+
 .main-title,
 .title {
   margin-bottom: 12px;
+}
+
+.title {
+  position: relative;
+}
+
+.title::after {
+  content: "";
+
+  position: absolute;
+  bottom: 0;
+  left: -16px;
+  transform: translateY(50%);
+
+  width: calc(100% + 16px);
+  height: 1px;
+
+  background-color: #ccc;
 }
 
 .list {
@@ -83,29 +108,11 @@ a {
 }
 
 .section {
-  position: relative;
   padding: 16px 0;
 }
 
-.section:not(:last-child)::after {
-  content: "";
-
-  position: absolute;
-  bottom: 0;
-  transform: translateY(50%);
-
-  width: calc(100% - 12px);
-  height: 1px;
-
-  background-color: #ccc;
-}
-
-.left .section:not(:last-child)::after {
-  right: 0;
-}
-
 .container {
-  padding: 0 12px;
+  padding: 0 16px;
 }
 
 /* header section */
@@ -164,6 +171,7 @@ a {
 .img {
   display: block;
   width: 100%;
+
   border-radius: 50%;
 }
 
@@ -172,7 +180,3 @@ a {
   padding-left: 0;
   list-style: none;
 }
-
-/* .contacts-item {
-  text-wrap: nowrap;
-} */
