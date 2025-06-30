@@ -1,0 +1,92 @@
+{
+  "header": {
+    "myNameEn": "Serhii Yakimtso",
+    "myNameUa": "Сергій Якімцо",
+    "position": "Консультант SAP Master Data / ERP-адміністратор"
+  },
+
+  "summary": "Інженер з надійності з досвідом у SAP ERP. Відкритий до нових технологій, маю аналітичне мислення та навички розробки. Ціную командну роботу та постійний розвиток.",
+
+  "experience": [
+    {
+      "title": "Інженер з надійності обладнання",
+      "timeFrom": "Січень 2019",
+      "timeTo": "до тепер",
+      "place": "ArcelorMittal Kryvyi Rih",
+      "responsibilities": [
+        "Впровадження проєкту ARMP",
+        "Аналіз несправностей, збір даних, розрахунок KPI"
+      ]
+    },
+
+    {
+      "title": "Учасник програми ARMP",
+      "timeFrom": "Квітень 2014",
+      "timeTo": "Січень 2019",
+      "place": "ArcelorMittal Kryvyi Rih",
+      "responsibilities": [
+        "Побудова ієрархії обладнання у SAP",
+        "Розробка планів обслуговування"
+      ]
+    }
+  ],
+
+  "achivments": [
+    "Завантаження/перевірка даних у SAP PM",
+    "Тестування оновлень SAP",
+    "Навчання ключових користувачів SAP",
+    "Складання звітів на основі SAP-даних"
+  ],
+
+  "techSkills": [
+    "SAP (PM, MM, FI)",
+    "Microsoft Excel",
+    "JavaScript",
+    "Тестування систем"
+  ],
+
+  "softSkills": [
+    "Аналітичне мислення",
+    "Командна робота",
+    "Комунікабельність",
+    "Уважність до деталей"
+  ],
+
+  "education": [
+    {
+      "title": "Fullstack Developer",
+      "place": "GoIT",
+      "date": "2023–2024"
+    },
+
+    {
+      "title": "Інженер-механік (спеціаліст)",
+      "place": "Криворізький технічний університет ",
+      "date": "2006–2011"
+    }
+  ],
+
+  "photo": "../img/photo.jpg",
+
+  "contacts": {
+    "phone": "+38(097)48-63-133",
+    "email": "serafyso@gmail.com",
+    "telegramName": "@SergeyYakimtso",
+    "telegramWay": "https://t.me/SergeyYakimtso",
+    "residence": "Кривий Ріг, Україна",
+    "gitHub": false,
+    "gitHubName": "Serhii-Yakimtso",
+    "gitHubWay": "https://github.com/Serhii-Yakimtso"
+  },
+
+  "languages": [
+    {
+      "lang": "Українська",
+      "level": "рідна"
+    },
+    {
+      "lang": "Англійська",
+      "level": "A2/B1"
+    }
+  ]
+}
