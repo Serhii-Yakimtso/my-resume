@@ -42,7 +42,7 @@ a {
   position: absolute;
   width: 1px;
   height: 1px;
-  margin: -1px;
+  margin: -1px !important;
   border: 0;
   padding: 0;
   white-space: nowrap;
@@ -109,7 +109,7 @@ a {
 }
 
 .section {
-  padding: 16px 0;
+  padding: 8px 0;
 }
 
 .container {

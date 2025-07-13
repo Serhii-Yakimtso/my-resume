@@ -1,0 +1,136 @@
+{
+  "settings": {
+    "gitHub": true
+  },
+
+  "header": {
+    "myNameEn": "Serhii Yakimtso",
+    "myNameUa": "Сергій Якімцо",
+    "position": "Trainee Java developer"
+  },
+
+  "summary": "Технічний спеціаліст із досвідом у промисловості та базовими знаннями веб-розробки. Шукаю можливість розпочати кар'єру як Trainee Java Developer. Вмію працювати з командою, та документацією, аналітично мислити і постійно вдосконалюватись. Маю сильну мотивацію перейти в ІТ та рости як розробник.",
+
+  "projects": [
+    {
+      "title": "WebStudio",
+      "prjectLink": "https://serhii-yakimtso.github.io/goit-markup-hw-06/index.html",
+      "gitLink": "https://github.com/Serhii-Yakimtso/goit-markup-hw-06",
+      "stack": "HTML, CSS",
+      "discription": "Індивідуальний проєкт зі створення сайту для вебстудії. Адаптивний дизайн, бургер-меню та модальні вікна для замовлення.",
+      "role": "розробник"
+    },
+
+    {
+      "title": "Vyshyvanka Vibes",
+      "prjectLink": "https://serhii-yakimtso.github.io/mom-i-and-it/",
+      "gitLink": "https://github.com/Serhii-Yakimtso/mom-i-and-it",
+      "stack": "HTML, CSS, JavaScript",
+      "discription": "Командний проєкт односторінкового сайту. Адаптивний дизайн, анімації, бургер-меню та модальні вікна для замовлення.",
+      "role": "лідер команди"
+    },
+
+    {
+      "title": "Portfolio",
+      "prjectLink": "https://yk9968.github.io/mom-i-and-it-js/",
+      "gitLink": "https://github.com/YK9968/mom-i-and-it-js",
+      "stack": "HTML, CSS, JavaScript, Axios",
+      "discription": "Командний проєкт односторінкового сайту. Адаптивний дизайн, ефекти трансформації, слайдери, POST-запит на бекенд, GET-запит з бекенду, бургер-меню, модальні вікна та форма для замовлення.",
+      "role": "розробник (reviews section)"
+    },
+
+    {
+      "title": "Contacts manager",
+      "prjectLink": "https://goit-react-hw-08-alpha-rouge.vercel.app/",
+      "gitLink": "https://github.com/Serhii-Yakimtso/goit-react-hw-08",
+      "stack": "HTML, CSS, JS, Axios, React, Redux",
+      "discription": "Індивідуальний проєкт зі створення сайту. Сервіс для збереження ваших контактів.",
+      "role": "розробник"
+    }
+  ],
+
+  "experience": [
+    {
+      "title": "Інженер з надійності обладнання",
+      "timeFrom": "Січень 2019",
+      "timeTo": "до тепер",
+      "place": "ArcelorMittal Kryvyi Rih",
+      "responsibilities": [
+        "Впровадження проєкту ARMP",
+        "Аналіз несправностей, збір даних, розрахунок KPI",
+        "Розробка програм для поліпшення розрахунків"
+      ]
+    },
+
+    {
+      "title": "Учасник програми ARMP",
+      "timeFrom": "Квітень 2014",
+      "timeTo": "Січень 2019",
+      "place": "ArcelorMittal Kryvyi Rih",
+      "responsibilities": [
+        "Побудова ієрархії обладнання у SAP",
+        "Розробка планів обслуговування"
+      ]
+    }
+  ],
+
+  "achivments": [
+    "Завантаження/перевірка даних у SAP PM",
+    "Тестування оновлень SAP",
+    "Навчання ключових користувачів SAP",
+    "Складання звітів на основі SAP-даних"
+  ],
+
+  "techSkills": [
+    "HTML, CSS, SASS",
+    "JavaScript, axios",
+    "React, Redux",
+    "Git, GitHub"
+  ],
+
+  "softSkills": [
+    "Аналітичне мислення",
+    "Командна робота",
+    "Відповідальність",
+    "Комунікабельність",
+    "Уважність до деталей"
+  ],
+
+  "education": [
+    {
+      "title": "Fullstack Developer",
+      "place": "GoIT",
+      "date": "2023–2024"
+    },
+
+    {
+      "title": "Інженер-механік",
+      "place": "Криворізький технічний університет",
+      "date": "2006–2011"
+    }
+  ],
+
+  "photo": "../img/photo.jpg",
+
+  "contacts": {
+    "phone": "+38(097)48-63-133",
+    "email": "serafyso@gmail.com",
+    "telegramName": "@SergeyYakimtso",
+    "telegramWay": "https://t.me/SergeyYakimtso",
+    "residence": "Кривий Ріг, Україна",
+    "gitHub": false,
+    "gitHubName": "Serhii-Yakimtso",
+    "gitHubWay": "https://github.com/Serhii-Yakimtso"
+  },
+
+  "languages": [
+    {
+      "lang": "Українська",
+      "level": "рідна"
+    },
+    {
+      "lang": "Англійська",
+      "level": "A2/B1"
+    }
+  ]
+}
