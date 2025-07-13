@@ -6,16 +6,17 @@
   "header": {
     "myNameEn": "Serhii Yakimtso",
     "myNameUa": "Сергій Якімцо",
-    "position": "Trainee Java developer"
+    "position": "Junior QA Engineer"
   },
 
-  "summary": "Technical specialist with experience in industry and basic knowledge of web development. Looking for an opportunity to start a career as a Trainee Java Developer. Able to work in a team, with documentation, think analytically, and constantly improve. Highly motivated to transition into IT and grow as a developer.",
+  "summary": "Technical specialist with experience in industrial operations and a strong desire to transition into IT. Completed web application development courses. Looking to join a friendly and mission-driven team to grow as a QA Engineer. Motivated, detail-oriented, and eager to contribute to product quality and team success.",
 
   "techSkills": [
     "HTML, CSS, SASS",
     "JavaScript, axios",
     "React, Redux",
-    "Git, GitHub"
+    "Git, GitHub",
+    "MS Excel"
   ],
 
   "softSkills": [

@@ -6,10 +6,26 @@
   "header": {
     "myNameEn": "Serhii Yakimtso",
     "myNameUa": "Сергій Якімцо",
-    "position": "Trainee Java developer"
+    "position": "Junior Тестувальник ПЗ"
   },
 
-  "summary": "Технічний спеціаліст із досвідом у промисловості та базовими знаннями веб-розробки. Шукаю можливість розпочати кар'єру як Trainee Java Developer. Вмію працювати з командою, та документацією, аналітично мислити і постійно вдосконалюватись. Маю сильну мотивацію перейти в ІТ та рости як розробник.",
+  "summary": "Технічний спеціаліст з досвідом у промисловій сфері та сильним бажанням перейти в ІТ. Пройшов курси з розробки веб-додатків. Шукаю можливість приєднатися до дружньої команди, щоб розвиватися як тестувальник ПЗ. Вмотивований, уважний до деталей, прагну підвищувати якість продукту та працювати на результат.",
+
+  "techSkills": [
+    "HTML, CSS, SASS",
+    "JavaScript, axios",
+    "React, Redux",
+    "Git, GitHub",
+    "MS Excel"
+  ],
+
+  "softSkills": [
+    "Аналітичне мислення",
+    "Командна робота",
+    "Відповідальність",
+    "Комунікабельність",
+    "Уважність до деталей"
+  ],
 
   "projects": [
     {
@@ -52,50 +68,25 @@
   "experience": [
     {
       "title": "Інженер з надійності обладнання",
-      "timeFrom": "Січень 2019",
+      "timeFrom": "Квітень 2014",
       "timeTo": "до тепер",
       "place": "ArcelorMittal Kryvyi Rih",
       "responsibilities": [
         "Впровадження проєкту ARMP",
+        "Побудова ієрархії обладнання у SAP",
+        "Розробка планів обслуговування",
         "Аналіз несправностей, збір даних, розрахунок KPI",
         "Розробка програм для поліпшення розрахунків",
         "Тестування нового функціоналу та розробка документації"
-      ]
-    },
-
-    {
-      "title": "Учасник програми ARMP",
-      "timeFrom": "Квітень 2014",
-      "timeTo": "Січень 2019",
-      "place": "ArcelorMittal Kryvyi Rih",
-      "responsibilities": [
-        "Побудова ієрархії обладнання у SAP",
-        "Розробка планів обслуговування"
       ]
     }
   ],
 
   "achivments": [
-    "Завантаження/перевірка даних у SAP PM",
-    "Тестування оновлень SAP",
-    "Навчання ключових користувачів SAP",
-    "Складання звітів на основі SAP-даних"
-  ],
-
-  "techSkills": [
-    "HTML, CSS, SASS",
-    "JavaScript, axios",
-    "React, Redux",
-    "Git, GitHub",
-    "MS Excel"
-  ],
-
-  "softSkills": [
-    "Аналітичне мислення",
-    "Командна робота",
-    "Відповідальність",
-    "Комунікабельність",
-    "Уважність до деталей"
+    "Data upload/validation in SAP PM",
+    "Testing SAP updates",
+    "Training key SAP users",
+    "Generating reports based on SAP data"
   ],
 
   "education": [
@@ -119,7 +110,7 @@
     "email": "serafyso@gmail.com",
     "telegramName": "@SergeyYakimtso",
     "telegramWay": "https://t.me/SergeyYakimtso",
-    "residence": "Кривий Ріг, Україна",
+    "residence": "Kryvyi Rih, Ukraine",
     "gitHub": false,
     "gitHubName": "Serhii-Yakimtso",
     "gitHubWay": "https://github.com/Serhii-Yakimtso"
@@ -127,11 +118,11 @@
 
   "languages": [
     {
-      "lang": "Українська",
-      "level": "рідна"
+      "lang": "Ukrainian",
+      "level": "native"
     },
     {
-      "lang": "Англійська",
+      "lang": "English",
       "level": "A2/B1"
     }
   ]
