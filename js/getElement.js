@@ -2,6 +2,7 @@
 
 export const header = document.querySelector("#header");
 export const summary = document.querySelector("#summary");
+export const projects = document.querySelector("#projects");
 export const experience = document.querySelector("#experience");
 export const achivments = document.querySelector("#achivments");
 export const education = document.querySelector("#education");

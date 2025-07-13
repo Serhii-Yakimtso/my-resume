@@ -1,4 +1,8 @@
 {
+  "settings": {
+    "gitHub": true
+  },
+
   "header": {
     "myNameEn": "Serhii Yakimtso",
     "myNameUa": "Сергій Якімцо",
@@ -6,6 +10,44 @@
   },
 
   "summary": "Інженер з надійності з досвідом у SAP ERP. Відкритий до нових технологій, маю аналітичне мислення та навички розробки. Ціную командну роботу та постійний розвиток.",
+
+  "projects": [
+    {
+      "title": "WebStudio",
+      "prjectLink": "https://serhii-yakimtso.github.io/goit-markup-hw-06/index.html",
+      "gitLink": "https://github.com/Serhii-Yakimtso/goit-markup-hw-06",
+      "stack": "HTML, CSS",
+      "discription": "Індивідуальний проєкт зі створення сайту для вебстудії. Адаптивний дизайн, бургер-меню та модальні вікна для замовлення.",
+      "role": "розробник"
+    },
+
+    {
+      "title": "Vyshyvanka Vibes",
+      "prjectLink": "https://serhii-yakimtso.github.io/mom-i-and-it/",
+      "gitLink": "https://github.com/Serhii-Yakimtso/mom-i-and-it",
+      "stack": "HTML, CSS, JavaScript",
+      "discription": "Командний проєкт односторінкового сайту. Адаптивний дизайн, анімації, бургер-меню та модальні вікна для замовлення.",
+      "role": "лідер команди"
+    },
+
+    {
+      "title": "Portfolio",
+      "prjectLink": "https://yk9968.github.io/mom-i-and-it-js/",
+      "gitLink": "https://github.com/YK9968/mom-i-and-it-js",
+      "stack": "HTML, CSS, JavaScript, Axios",
+      "discription": "Командний проєкт односторінкового сайту. Адаптивний дизайн, ефекти трансформації, слайдери, POST-запит на бекенд, GET-запит з бекенду, бургер-меню, модальні вікна та форма для замовлення.",
+      "role": "розробник (reviews section)"
+    },
+
+    {
+      "title": "Contacts manager",
+      "prjectLink": "https://goit-react-hw-08-alpha-rouge.vercel.app/",
+      "gitLink": "https://github.com/Serhii-Yakimtso/goit-react-hw-08",
+      "stack": "HTML, CSS, JS, Axios, React, Redux",
+      "discription": "Індивідуальний проєкт зі створення сайту. Сервіс для збереження ваших контактів.",
+      "role": "розробник"
+    }
+  ],
 
   "experience": [
     {
@@ -60,8 +102,8 @@
     },
 
     {
-      "title": "Інженер-механік (спеціаліст)",
-      "place": "Криворізький технічний університет ",
+      "title": "Інженер-механік",
+      "place": "КТУ",
       "date": "2006–2011"
     }
   ],

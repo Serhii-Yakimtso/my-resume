@@ -72,7 +72,8 @@ a {
 
 .main-title,
 .title,
-.card-title {
+.card-title,
+.prj-title {
   color: var(--prime-title-color);
 }
 
@@ -130,14 +131,14 @@ a {
 }
 
 .card-title {
-  margin-bottom: 4px;
+  /* margin-bottom: 4px; */
 }
 
 .card-wrapper {
   display: flex;
   justify-content: space-between;
 
-  margin-bottom: 4px;
+  /* margin-bottom: 4px; */
 
   font-size: 12px;
 }
@@ -179,4 +180,31 @@ a {
 .contacts-list {
   padding-left: 0;
   list-style: none;
+}
+
+/* projects section */
+.projects-list {
+  list-style: none;
+}
+.prj-wrapper {
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 4px; */
+
+  font-size: 12px;
+}
+
+.projects-card {
+  margin-bottom: 8px;
+}
+
+.prj-title {
+  /* margin-bottom: 4px; */
+}
+
+.prj-discription,
+.prj-role,
+.card-item,
+.achivments-item {
+  font-size: 14px;
 }

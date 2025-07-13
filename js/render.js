@@ -3,6 +3,7 @@
 import {
   header,
   summary,
+  projects,
   experience,
   achivments,
   education,
@@ -16,6 +17,7 @@ import {
 import {
   headerMarkup,
   summaryMarkup,
+  projectMarckup,
   experienceMarkup,
   achivmentsMarkup,
   educationMarkUp,
@@ -29,6 +31,7 @@ import {
 export default function renderProfile(data) {
   header.innerHTML = headerMarkup(data);
   summary.innerHTML = summaryMarkup(data);
+  projects.innerHTML = projectMarckup(data);
   experience.innerHTML = experienceMarkup(data);
   achivments.innerHTML = achivmentsMarkup(data);
   education.innerHTML = educationMarkUp(data);

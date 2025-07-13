@@ -30,6 +30,41 @@ export function summaryMarkup(data) {
   `;
 }
 
+export function projectMarckup(data) {
+  const { projects } = data;
+
+  return `
+            <div class="container">
+            <h2 class="title">Проекти</h2>
+            <ul class="projects-list">
+              ${projects
+                .map(
+                  ({
+                    title,
+                    prjectLink,
+                    gitLink,
+                    stack,
+                    discription,
+                    role,
+                  }) => `
+                    <li class="projects-card">
+                      <h3 class="prj-title"><a class="prj-git" href="${prjectLink}">${title}</a></h3>
+                      <div class="prj-wrapper">
+                        <a class="prj-git" href="${gitLink}">GitHub</a>
+                        <p class="prj-stack">[ ${stack} ]</p>
+                      </div>
+                      <p class="prj-discription">${discription}</p>
+                      <p class="prj-role">Роль: ${role}</p>
+                    </li>
+                  `
+                )
+                .join("")}
+
+            </ul>
+          </div>
+  `;
+}
+
 export function experienceMarkup(data) {
   const { experience } = data;
 
@@ -67,8 +102,13 @@ export function experienceMarkup(data) {
 
 export function achivmentsMarkup(data) {
   const { achivments } = data;
+  const {
+    settings: { gitHub },
+  } = data;
 
-  return `
+  return `${
+    !gitHub
+      ? `
             <div class="container">
               <h2 class="title">Досягнення</h2>
               <ul class="list">
@@ -77,7 +117,9 @@ export function achivmentsMarkup(data) {
                   .join("")}
               </ul>
             </div>
-  `;
+  `
+      : ""
+  }`;
 }
 
 export function educationMarkUp(data) {
@@ -91,8 +133,11 @@ export function educationMarkUp(data) {
                   .map(
                     ({ title, place, date }) => `
                               <li class="education-item">
-                                <strong>${title}</strong> — ${place} (${date})
+                                <p><strong>${title}</strong></p>
+                                <p>${place}</p>
+                                <p>${date}</p>
                               </li>
+
                               `
                   )
                   .join("")}
@@ -116,7 +161,7 @@ export function photoMarkup(data) {
   `;
 }
 
-export function contactsMarkup(data) {
+export function contactsMarkup(data, settings) {
   const {
     contacts: {
       phone,
@@ -124,11 +169,15 @@ export function contactsMarkup(data) {
       telegramName,
       telegramWay,
       residence,
-      gitHub,
       gitHubWay,
       gitHubName,
     },
   } = data;
+
+  const {
+    settings: { gitHub },
+  } = data;
+
   return `
             <div class="container">
               <h2 class="title">Контакти</h2>
