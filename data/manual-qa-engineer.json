@@ -1,0 +1,129 @@
+{
+  "settings": {
+    "gitHub": true
+  },
+
+  "header": {
+    "myNameEn": "Serhii Yakimtso",
+    "myNameUa": "Сергій Якімцо",
+    "position": "Manual QA-інженер"
+  },
+
+  "summary": "Технічний спеціаліст з досвідом у промисловій сфері та сильним бажанням перейти в ІТ. Пройшов курси з розробки веб-додатків. Шукаю можливість приєднатися до дружньої команди, щоб розвиватися як QA-інженер. Вмотивований, уважний до деталей, прагну підвищувати якість продукту та працювати на результат.",
+
+  "techSkills": [
+    "HTML, CSS, SASS",
+    "JavaScript, axios",
+    "React, Redux",
+    "Git, GitHub",
+    "MS Excel"
+  ],
+
+  "softSkills": [
+    "Аналітичне мислення",
+    "Командна робота",
+    "Відповідальність",
+    "Комунікабельність",
+    "Уважність до деталей"
+  ],
+
+  "projects": [
+    {
+      "title": "WebStudio",
+      "prjectLink": "https://serhii-yakimtso.github.io/goit-markup-hw-06/index.html",
+      "gitLink": "https://github.com/Serhii-Yakimtso/goit-markup-hw-06",
+      "stack": "HTML, CSS",
+      "discription": "Індивідуальний проєкт зі створення сайту для вебстудії. Адаптивний дизайн, бургер-меню та модальні вікна для замовлення.",
+      "role": "розробник"
+    },
+
+    {
+      "title": "Vyshyvanka Vibes",
+      "prjectLink": "https://serhii-yakimtso.github.io/mom-i-and-it/",
+      "gitLink": "https://github.com/Serhii-Yakimtso/mom-i-and-it",
+      "stack": "HTML, CSS, JavaScript",
+      "discription": "Командний проєкт односторінкового сайту. Адаптивний дизайн, анімації, бургер-меню та модальні вікна для замовлення.",
+      "role": "лідер команди"
+    },
+
+    {
+      "title": "Portfolio",
+      "prjectLink": "https://yk9968.github.io/mom-i-and-it-js/",
+      "gitLink": "https://github.com/YK9968/mom-i-and-it-js",
+      "stack": "HTML, CSS, JavaScript, Axios",
+      "discription": "Командний проєкт односторінкового сайту. Адаптивний дизайн, ефекти трансформації, слайдери, POST-запит на бекенд, GET-запит з бекенду, бургер-меню, модальні вікна та форма для замовлення.",
+      "role": "розробник (reviews section)"
+    },
+
+    {
+      "title": "Contacts manager",
+      "prjectLink": "https://goit-react-hw-08-alpha-rouge.vercel.app/",
+      "gitLink": "https://github.com/Serhii-Yakimtso/goit-react-hw-08",
+      "stack": "HTML, CSS, JS, Axios, React, Redux",
+      "discription": "Індивідуальний проєкт зі створення сайту. Сервіс для збереження ваших контактів.",
+      "role": "розробник"
+    }
+  ],
+
+  "experience": [
+    {
+      "title": "Інженер з надійності обладнання",
+      "timeFrom": "Квітень 2014",
+      "timeTo": "до тепер",
+      "place": "ArcelorMittal Kryvyi Rih",
+      "responsibilities": [
+        "Впровадження проєкту ARMP",
+        "Побудова ієрархії обладнання у SAP",
+        "Розробка планів обслуговування",
+        "Аналіз несправностей, збір даних, розрахунок KPI",
+        "Розробка програм для поліпшення розрахунків",
+        "Тестування нового функціоналу та розробка документації"
+      ]
+    }
+  ],
+
+  "achivments": [
+    "Data upload/validation in SAP PM",
+    "Testing SAP updates",
+    "Training key SAP users",
+    "Generating reports based on SAP data"
+  ],
+
+  "education": [
+    {
+      "title": "Fullstack Developer",
+      "place": "GoIT",
+      "date": "2023–2024"
+    },
+
+    {
+      "title": "Інженер-механік",
+      "place": "Криворізький технічний університет",
+      "date": "2006–2011"
+    }
+  ],
+
+  "photo": "../img/photo.jpg",
+
+  "contacts": {
+    "phone": "+38(097)48-63-133",
+    "email": "serafyso@gmail.com",
+    "telegramName": "@SergeyYakimtso",
+    "telegramWay": "https://t.me/SergeyYakimtso",
+    "residence": "Kryvyi Rih, Ukraine",
+    "gitHub": false,
+    "gitHubName": "Serhii-Yakimtso",
+    "gitHubWay": "https://github.com/Serhii-Yakimtso"
+  },
+
+  "languages": [
+    {
+      "lang": "Ukrainian",
+      "level": "native"
+    },
+    {
+      "lang": "English",
+      "level": "A2/B1"
+    }
+  ]
+}
