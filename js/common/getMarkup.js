@@ -33,7 +33,13 @@ export function summaryMarkup(data) {
 export function projectMarckup(data) {
   const { projects } = data;
 
-  return `
+  const {
+    settings: { gitHub },
+  } = data;
+
+  return `${
+    gitHub
+      ? `
             <div class="container">
             <h2 class="title">Проекти</h2>
             <ul class="projects-list">
@@ -62,7 +68,9 @@ export function projectMarckup(data) {
 
             </ul>
           </div>
-  `;
+  `
+      : ""
+  }`;
 }
 
 export function experienceMarkup(data) {

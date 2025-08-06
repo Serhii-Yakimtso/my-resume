@@ -1,0 +1,135 @@
+{
+  "settings": {
+    "gitHub": false
+  },
+
+  "header": {
+    "myNameEn": "Serhii Yakimtso",
+    "myNameUa": "Сергій Якімцо",
+    "position": "Експерт з моніторингу та оцінки (Expert Monitoring Evaluation)"
+  },
+
+  "summary": "Фахівець з досвідом впровадження технічних рішень, аналітики ефективності та супроводу ERP-систем. Брав участь у побудові процесів оцінки, розрахунку технічних KPI, тестуванні функціоналу та навчанні користувачів. Орієнтований на точність, системність та результат. Маю сильну мотивацію працювати у сфері оцінки ефективності та цифрової трансформації процесів управління результативністю.",
+
+  "projects": [
+    {
+      "title": "WebStudio",
+      "prjectLink": "https://serhii-yakimtso.github.io/goit-markup-hw-06/index.html",
+      "gitLink": "https://github.com/Serhii-Yakimtso/goit-markup-hw-06",
+      "stack": "HTML, CSS",
+      "discription": "Індивідуальний проєкт зі створення сайту для вебстудії. Адаптивний дизайн, бургер-меню та модальні вікна для замовлення.",
+      "role": "розробник"
+    },
+    {
+      "title": "Vyshyvanka Vibes",
+      "prjectLink": "https://serhii-yakimtso.github.io/mom-i-and-it/",
+      "gitLink": "https://github.com/Serhii-Yakimtso/mom-i-and-it",
+      "stack": "HTML, CSS, JavaScript",
+      "discription": "Командний проєкт односторінкового сайту. Адаптивний дизайн, анімації, бургер-меню та модальні вікна для замовлення.",
+      "role": "лідер команди"
+    },
+    {
+      "title": "Portfolio",
+      "prjectLink": "https://yk9968.github.io/mom-i-and-it-js/",
+      "gitLink": "https://github.com/YK9968/mom-i-and-it-js",
+      "stack": "HTML, CSS, JavaScript, Axios",
+      "discription": "Командний проєкт односторінкового сайту. Адаптивний дизайн, ефекти трансформації, слайдери, POST-запит на бекенд, GET-запит з бекенду, бургер-меню, модальні вікна та форма для замовлення.",
+      "role": "розробник (reviews section)"
+    },
+    {
+      "title": "Contacts manager",
+      "prjectLink": "https://goit-react-hw-08-alpha-rouge.vercel.app/",
+      "gitLink": "https://github.com/Serhii-Yakimtso/goit-react-hw-08",
+      "stack": "HTML, CSS, JS, Axios, React, Redux",
+      "discription": "Індивідуальний проєкт зі створення сайту. Сервіс для збереження ваших контактів.",
+      "role": "розробник"
+    }
+  ],
+
+  "experience": [
+    {
+      "title": "Інженер з надійності обладнання / Аналітик показників ефективності",
+      "timeFrom": "Січень 2019",
+      "timeTo": "до тепер",
+      "place": "ArcelorMittal Kryvyi Rih",
+      "responsibilities": [
+        "Аналіз результативності технічних процесів, розрахунок KPI та підготовка регулярної звітності",
+        "Участь у формуванні та покращенні процедур оцінки, координація з користувачами та розробниками",
+        "Тестування розробленого функціоналу, створення інструкцій для користувачів",
+        "Навчання персоналу та забезпечення постійного зворотного зв’язку",
+        "Підтримка структури бази даних SAP, оновлення та контроль актуальності інформації"
+      ]
+    },
+    {
+      "title": "Учасник програми ARMP",
+      "timeFrom": "Квітень 2014",
+      "timeTo": "Січень 2019",
+      "place": "ArcelorMittal Kryvyi Rih",
+      "responsibilities": [
+        "Побудова ієрархії обладнання у SAP PM та підготовка планів технічного обслуговування",
+        "Збір та перевірка технічних даних, адміністрування баз даних SAP",
+        "Участь у впровадженні системи оцінки технічної надійності та розрахунку KPI"
+      ]
+    }
+  ],
+
+  "achivments": [
+    "Розрахунок та аналіз технічних KPI на основі SAP-даних",
+    "Автоматизація звітності за допомогою Excel та Google Sheets",
+    "Тестування функціоналу SAP PM, підготовка інструкцій користувачам",
+    "Навчання ключових користувачів оцінювальним процесам та ERP-системі",
+    "Вдосконалення процесу збору й обробки даних для звітності та моніторингу"
+  ],
+
+  "techSkills": [
+    "SAP PM, SAP GUI",
+    "MS Excel, Google Sheets (аналіз і звітність)",
+    "Trello",
+    "Git, GitHub",
+    "JavaScript (базовий рівень)"
+  ],
+
+  "softSkills": [
+    "Аналітичне мислення",
+    "Системність та структурність",
+    "Відповідальність",
+    "Комунікабельність"
+  ],
+
+  "education": [
+    {
+      "title": "Fullstack Developer",
+      "place": "GoIT",
+      "date": "2023–2024"
+    },
+    {
+      "title": "Інженер-механік",
+      "place": "Криворізький технічний університет",
+      "date": "2006–2011"
+    }
+  ],
+
+  "photo": "../img/photo.jpg",
+
+  "contacts": {
+    "phone": "+38(097)48-63-133",
+    "email": "serafyso@gmail.com",
+    "telegramName": "@SergeyYakimtso",
+    "telegramWay": "https://t.me/SergeyYakimtso",
+    "residence": "Кривий Ріг, Україна",
+    "gitHub": false,
+    "gitHubName": "Serhii-Yakimtso",
+    "gitHubWay": "https://github.com/Serhii-Yakimtso"
+  },
+
+  "languages": [
+    {
+      "lang": "Українська",
+      "level": "рідна"
+    },
+    {
+      "lang": "Англійська",
+      "level": "A2/B1"
+    }
+  ]
+}
