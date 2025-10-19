@@ -1,0 +1,131 @@
+{
+  "settings": {
+    "gitHub": true
+  },
+
+  "header": {
+    "myNameEn": "Serhii Yakimtso",
+    "myNameUa": "Сергій Якімцо",
+    "position": "Trainee Full-Stack Developer"
+  },
+
+  "summary": "Technical specialist with experience in industry and basic knowledge of web development. Looking for an opportunity to start a career as a Trainee Full-Stack Developer. Able to work in a team, with documentation, think analytically, and constantly improve. Highly motivated to transition into IT and grow as a developer.",
+
+  "techSkills": ["HTML, CSS", "JavaScript, axios", "React", "Git, GitHub"],
+
+  "softSkills": [
+    "Attention to detail",
+    "Analytical thinking",
+    "Team collaboration",
+    "Problem solving",
+    "Eagerness to learn"
+  ],
+
+  "projects": [
+    {
+      "title": "WebStudio",
+      "prjectLink": "https://serhii-yakimtso.github.io/goit-markup-hw-06/index.html",
+      "gitLink": "https://github.com/Serhii-Yakimtso/goit-markup-hw-06",
+      "stack": "HTML, CSS",
+      "discription": "Personal project for developing a website for a web studio. Adaptive design, burger menu, and modal windows for ordering.",
+      "role": "developer"
+    },
+
+    {
+      "title": "Vyshyvanka Vibes",
+      "prjectLink": "https://serhii-yakimtso.github.io/mom-i-and-it/",
+      "gitLink": "https://github.com/Serhii-Yakimtso/mom-i-and-it",
+      "stack": "HTML, CSS, JavaScript",
+      "discription": "Team project of a single-page website. Adaptive design, animations, burger menu, and modal windows for ordering.",
+      "role": "team leader"
+    },
+
+    {
+      "title": "Portfolio",
+      "prjectLink": "https://yk9968.github.io/mom-i-and-it-js/",
+      "gitLink": "https://github.com/YK9968/mom-i-and-it-js",
+      "stack": "HTML, CSS, JavaScript, Axios",
+      "discription": "Team project of a single-page portfolio website. Adaptive design, transform effects, sliders, POST request to backend, GET request from backend, burger menu, modal windows, and an order form.",
+      "role": "developer (reviews section)"
+    },
+
+    {
+      "title": "JS games",
+      "prjectLink": "https://github.com/Serhii-Yakimtso/games-js",
+      "gitLink": "https://github.com/Serhii-Yakimtso/games-js",
+      "stack": "HTML, CSS, JavaScript",
+      "discription": "Personal project for developing some simple games.",
+      "role": "developer"
+    }
+  ],
+
+  "experience": [
+    {
+      "title": "Equipment Reliability Engineer",
+      "timeFrom": "January 2019",
+      "timeTo": "present",
+      "place": "ArcelorMittal Kryvyi Rih",
+      "responsibilities": [
+        "Implementation of the ARMP project",
+        "Failure analysis, data collection, KPI calculation",
+        "Development of tools to improve calculation accuracy"
+      ]
+    },
+
+    {
+      "title": "ARMP Program Participant",
+      "timeFrom": "April 2014",
+      "timeTo": "January 2019",
+      "place": "ArcelorMittal Kryvyi Rih",
+      "responsibilities": [
+        "Building equipment hierarchies in SAP",
+        "Development of maintenance plans"
+      ]
+    }
+  ],
+
+  "achivments": [
+    "Data upload/validation in SAP PM",
+    "Testing SAP updates",
+    "Training key SAP users",
+    "Generating reports based on SAP data"
+  ],
+
+  "education": [
+    {
+      "title": "Fullstack Developer",
+      "place": "GoIT",
+      "date": "2023–2024"
+    },
+
+    {
+      "title": "Mechanical Engineer",
+      "place": "Kryvyi Rih Technical University",
+      "date": "2006–2011"
+    }
+  ],
+
+  "photo": "../img/photo.jpg",
+
+  "contacts": {
+    "phone": "+38(097)48-63-133",
+    "email": "serafyso@gmail.com",
+    "telegramName": "@SergeyYakimtso",
+    "telegramWay": "https://t.me/SergeyYakimtso",
+    "residence": "Kryvyi Rih, Ukraine",
+    "gitHub": false,
+    "gitHubName": "Serhii-Yakimtso",
+    "gitHubWay": "https://github.com/Serhii-Yakimtso"
+  },
+
+  "languages": [
+    {
+      "lang": "Ukrainian",
+      "level": "native"
+    },
+    {
+      "lang": "English",
+      "level": "A2/B1"
+    }
+  ]
+}
